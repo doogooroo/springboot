@@ -1,9 +1,10 @@
-package com.in28minutes.learnspringframwork;
+package com.in28minutes.learnspringframwork.helloworld;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.in28minutes.learnspringframwork.game.ContraGame;
 import com.in28minutes.learnspringframwork.game.GameRunner;
+import com.in28minutes.learnspringframwork.game.GamingConsole;
 import com.in28minutes.learnspringframwork.game.MarioGame;
 import com.in28minutes.learnspringframwork.game.PacManGame;
 
@@ -13,15 +14,13 @@ import com.in28minutes.learnspringframwork.game.PacManGame;
 
 */
 
-public class App02HelloWorldSpring {
+public class App03GamingSpringBeans {
 
     public static void main(String[] args){
-        // 1. Launch a Spring Context
 
-        //AnnotationConfigApplicationContext()
+        var context = new AnnotationConfigApplicationContext(GamingConfiguration.class);
 
-        // 2. Configure the thinngs that we want Spring to manage @Configureation
-
+        context.getBean(GamingConsole.class).up();
 
     }
     

@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringframwork;
+package com.in28minutes.learnspringframwork.helloworld;
 
 import com.in28minutes.learnspringframwork.game.ContraGame;
 import com.in28minutes.learnspringframwork.game.GameRunner;
