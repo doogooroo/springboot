@@ -3,7 +3,7 @@ package com.in28minutes.learnspringframwork.game;
 public class MarioGame implements GamingConsole{
 
     public void up(){
-        System.out.println("Jump");
+        System.out.println("test1");
     }
 
     public void down(){
