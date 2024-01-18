@@ -15,7 +15,7 @@ public class MarioGame implements GamingConsole{
     }
 
     public void right(){
-        System.out.println("accelate");
+        System.out.println("accelate test2");
     }
 
 }
